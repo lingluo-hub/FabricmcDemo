@@ -8,11 +8,13 @@ on:
   pull_request:
     paths-ignore:
       - 'README.md'
-      - 'Writerside/**'
+      - '**/**.md'
+      - '.github/workflows/build-docs.yml'
   push:
     paths-ignore:
       - 'README.md'
-      - 'Writerside/**'
+      - '**/**.md'
+      - '.github/workflows/build-docs.yml'
 
 
 jobs:
