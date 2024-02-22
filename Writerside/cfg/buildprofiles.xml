@@ -7,4 +7,9 @@
     <footer>
 
     </footer>
+    <build-profile instance="fmc">
+        <variables>
+            <noindex-content>true</noindex-content>
+        </variables>
+    </build-profile>
 </buildprofiles>

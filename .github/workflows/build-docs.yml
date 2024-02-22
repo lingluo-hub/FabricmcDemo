@@ -12,7 +12,7 @@ permissions:
   pages: write
 
 env:
-  INSTANCE: Writerside/fabric-docs
+  INSTANCE: Writerside/fmc
   ARTIFACT: webHelpFMC2-all.zip
   DOCKER_VERSION: 233.14389
 
