@@ -8,12 +8,10 @@ on:
   pull_request:
     paths-ignore:
       - 'README.md'
-      - '**/**.md'
       - '.github/workflows/build-docs.yml'
   push:
     paths-ignore:
       - 'README.md'
-      - '**/**.md'
       - '.github/workflows/build-docs.yml'
 
 
