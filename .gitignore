@@ -38,3 +38,6 @@ hs_err_*.log
 replay_*.log
 *.hprof
 *.jfr
+
+#Fabric
+/src/main/generated/.cache/c1cace6c04e3f7e105ab7448e4da45643b8dcdad

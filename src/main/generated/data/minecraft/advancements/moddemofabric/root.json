@@ -1,0 +1,30 @@
+{
+  "criteria": {
+    "got_dirt": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:dirt"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+    "description": "现在做了一个 3x3 ！",
+    "icon": {
+      "item": "minecraft:dirt"
+    },
+    "title": "你的第一个泥土方块！"
+  },
+  "requirements": [
+    [
+      "got_dirt"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

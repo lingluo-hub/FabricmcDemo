@@ -15,6 +15,9 @@
 	"icon": "assets/moddemofabric/icon.png",
 	"environment": "*",
 	"entrypoints": {
+		"fabric-datagen": [
+			"com.lingluocloud.DataGen.DataGeneration"
+		],
 		"main": [
 			"com.lingluocloud.ModDemoFabric"
 		],
